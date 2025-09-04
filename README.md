@@ -57,8 +57,6 @@ Xtian Karaoke now includes a powerful microphone integration that turns any devi
 
 -   **Create & Join Rooms:** Easily start a new karaoke room or join an existing one using a simple room code.
 -   **Admin Privileges:** The user who creates a room is designated as the "HOST" with special controls.
--   **Secure Room Access:**
-    -   Room IDs have a fixed length for validity.
     -   Users cannot join non-existent rooms (non-admins are redirected).
     -   Admins can create a room if the ID is valid but the room doesn't exist.
 -   **Easy Sharing:**
@@ -104,6 +102,19 @@ Xtian Karaoke now includes a powerful microphone integration that turns any devi
 -   **Environment Consistency:** Ensures the same Node.js version and dependencies for all developers
 
 ### 📄 Docker Setup
+Custom local domain (Windows):
+
+1. Add this line to C:\\Windows\\System32\\drivers\\etc\\hosts (run Notepad as Administrator):
+
+    127.0.0.1    bimby-karaoke.local
+
+2. Start Next.js bound to that hostname:
+
+```bash
+pnpm dev:bimby
+```
+
+You can then browse http://bimby-karaoke.local:3000
 
 Xtian Karaoke now includes Docker configuration for development:
 
