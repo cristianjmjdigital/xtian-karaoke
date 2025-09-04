@@ -109,7 +109,7 @@ export default function Home() {
                     Xtian Karaoke
                 </h1>
                 <p className="text-xl text-gray-300 animate-pulse-slow">
-                    Online Karaoke Experience
+                    KANTA
                 </p>
             </motion.div>
 
@@ -224,22 +224,7 @@ export default function Home() {
 
             <footer className="absolute bottom-0 left-0 right-0 p-4 text-center text-xs text-gray-500">
                 <p>
-                    Contact:{" "}
-                    <a
-                        href="mailto:aaronjaygabato30@gmail.com"
-                        className="hover:text-red-400"
-                    >
-                        aaronjaygabato30@gmail.com
-                    </a>
-                    {" | "}
-                    <a
-                        href="https://www.facebook.com/gabato.aaron30"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-red-400"
-                    >
-                        Facebook
-                    </a>
+                    Made by: Xtian
                 </p>
             </footer>
 

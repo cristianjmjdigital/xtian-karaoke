@@ -1,13 +1,13 @@
 {
-    "name": "Xtian Karaoke",
+    "name": " Bimby Karaoke",
     "version": "0.1.0",
     "private": true,
     "scripts": {
     "dev": "next dev",
-    "dev:bimby": "next dev --hostname bimby-karaoke.local --port 3000",
+    "dev:bimby": "next dev --hostname 0.0.0.0 --port 3000",
         "build": "next build",
     "start": "next start",
-    "start:bimby": "next start --hostname bimby-karaoke.local --port 3000",
+    "start:bimby": "next start --hostname 0.0.0.0 --port 3000",
         "lint": "next lint",
         "docker:build": "docker build -t oktv:latest .",
         "docker:dev": "docker-compose -f docker-compose.yml up",
